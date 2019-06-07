@@ -1,0 +1,16 @@
+{
+	"name" : "tokushima/tt-block",
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+		"name" : "tokushima"
+	}],
+	"autoload" : {
+		"psr-4" : {
+			"tt\\block\\" : "lib/tt/block/"
+		}
+	},
+	"require" : {
+		"tokushima/ebi" : ">=2.2.0"
+	}
+}
